@@ -9,11 +9,12 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
 - Textbook: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
 
 ## 📁 Contents
+
+## 🚀 Homework 2 Getting Started
+
 | Homework 2 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
 | RISC-V assembly (RV64I) | 實現 Quick Sort(Hoare partition) | <img src="image/1.PNG" width="250"/> | <img src="image/2.PNG" width="250"/> |
-
-🚀 Homework 2 Getting Started
 
 Directory structure shown below:
 ```
@@ -29,6 +30,8 @@ Using this command:
 ```
 java -jar rars-1.7.jar rv64 sm main.s sort.s
 ```
+
+## 🚀 Homework 3 Getting Started
 
 | Homework 3 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
