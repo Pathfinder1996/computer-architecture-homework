@@ -11,11 +11,19 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
 ## 📁 Contents
 | Homework 2 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-| RISC-V assembly (RV64I) | 實現 Quick Sort(Hoare partition) | <img src="image/padded_image.png" width="250"/> | <img src="image/thresholded_image.png" width="250"/> |
+| RISC-V assembly (RV64I) | 實現 Quick Sort(Hoare partition) | <img src="image/1.PNG" width="250"/> | <img src="image/2.PNG" width="250"/> |
 
 🚀 Homework 2 Getting Started
 
-Download RARS 1.7 from [this link](https://github.com/rarsm/rars/releases/download/v1.7/rars-1.7.jar)
+Directory structure shown below:
+```
+homework_2
+├── rars-1.7.jar
+├── main.s
+└── sort.s
+```
+
+You can download RARS 1.7 from [this link](https://github.com/rarsm/rars/releases/download/v1.7/rars-1.7.jar)
 
 Using this command:
 ```
