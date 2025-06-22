@@ -12,9 +12,20 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
 
 ## 🚀 Homework 2 Getting Started
 
-| Homework 2 | Description | Input | Output |
-|-------------|-----------------|-----------------|-----------------|
-| RISC-V assembly (RV64I) | 實現 Quick Sort(Hoare partition) | <img src="image/1.PNG" width="250"/> | <img src="image/2.PNG" width="250"/> |
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Homework 2</th>
+    <th>Description</th>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>RISC-V assembly (RV64I)</td>
+    <td>Implement Quick Sort (Hoare partition)</td>
+    <td><img src="image/1.PNG" width="300"/></td>
+    <td><img src="image/2.PNG" width="300"/></td>
+  </tr>
+</table>
 
 Directory structure shown below:
 ```
