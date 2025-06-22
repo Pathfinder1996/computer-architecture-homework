@@ -35,8 +35,8 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
 
 | Homework 3 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-|  |  |  |  |
+| Verilog |  |  |  |
 
 | Homework 4 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-|  |  |  |  |
+| Verilog |  |  |  |
