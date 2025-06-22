@@ -8,17 +8,24 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
 - Instructor: Prof. Shih-Hao Hung(洪士灝 教授)
 - Textbook: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
 
-### 📁 Contents
-| Homework 2 |  |
-|-------------|-----------------|
-| | |
+## 📁 Contents
+| Homework 2 | Description | Input | Output |
+|-------------|-----------------|-----------------|-----------------|
+| RISC-V assembly (RV64I) | 實現 Quick Sort(Hoare partition) | <img src="image/padded_image.png" width="250"/> | <img src="image/thresholded_image.png" width="250"/> |
 
-| Homework 3 |  |
-|-------------|-----------------|
-| | |
+🚀 Homework 2 Getting Started
 
-| Homework 4 |  |
-|-------------|-----------------|
-| | |
+Download RARS 1.7 from [this link](https://github.com/rarsm/rars/releases/download/v1.7/rars-1.7.jar)
 
-## 🚀 Getting Started
+Using this command:
+```
+java -jar rars-1.7.jar rv64 sm main.s sort.s
+```
+
+| Homework 3 | Description | Input | Output |
+|-------------|-----------------|-----------------|-----------------|
+|  |  |  |  |
+
+| Homework 4 | Description | Input | Output |
+|-------------|-----------------|-----------------|-----------------|
+|  |  |  |  |
