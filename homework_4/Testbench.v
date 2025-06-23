@@ -17,6 +17,8 @@ CPU CPU(
 always #(`CYCLE_TIME/2) clk = ~clk;
 
 initial begin
+    $dumpfile("CPU.vcd");
+    $dumpvars;
     outfile = $fopen("output.txt") | 1;
 
     /* Initialize the instruction memory
