@@ -85,6 +85,19 @@ vvp reg
 gtkwave Registers.vcd
 ```
 
-| Homework 4 | Description | Input | Output |
-|-------------|-----------------|-----------------|-----------------|
-| Verilog |  | |  |
+## 🚀 Homework 2 Getting Started
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Homework 4</th>
+    <th>Description</th>
+    <th>Input</th>
+    <th>Output 2 (Register Wave)</th>
+  </tr>
+  <tr>
+    <td>Verilog</td>
+    <td></td>
+    <td><img src="image/3.PNG" width="300"/></td>
+    <td><img src="image/4.png" width="300"/></td>
+  </tr>
+</table>
