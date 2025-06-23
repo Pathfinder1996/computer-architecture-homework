@@ -59,6 +59,16 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
   </tr>
 </table>
 
+Directory structure shown below:
+```
+homework_3
+├── ALU.v
+├── ALU_tb.v
+├── Registers.v
+└── Registers_tb.v
+```
+Setting up the verilog environment:
+
 Download prebuilt Icarus Verilog and GTKWave [here](https://bleyer.org/icarus/)
 
 Using command:
