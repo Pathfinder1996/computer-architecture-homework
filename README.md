@@ -30,8 +30,8 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
 Directory structure shown below:
 ```
 homework_2
-├── rars-1.7.jar
 ├── main.s
+├── rars-1.7.jar
 └── sort.s
 ```
 
@@ -85,19 +85,42 @@ vvp reg
 gtkwave Registers.vcd
 ```
 
-## 🚀 Homework 2 Getting Started
+## 🚀 Homework 4 Getting Started
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
     <th>Homework 4</th>
     <th>Description</th>
+    <th>Data Path</th>
     <th>Input</th>
-    <th>Output 2 (Register Wave)</th>
+    <th>Output (CPU Wave)</th>
   </tr>
   <tr>
     <td>Verilog</td>
-    <td></td>
-    <td><img src="image/3.PNG" width="300"/></td>
-    <td><img src="image/4.png" width="300"/></td>
+    <td>實現部分指令的RV64I RISC-V single-cycle processor，參考The RISC-V Instruction Set Manual並設計出與作業規範相符的single-cycle processor，最後通過助教給的testbench。</td>
+    <td><img src="image/6.png" width="300"/></td>
+    <td>instruction.txt</td>
+    <td><img src="image/5.PNG" width="300"/></td>
   </tr>
 </table>
+
+Directory structure shown below:
+```
+homework_4
+├── ALU.v
+├── ALUControl.v
+├── CPU.v
+├── ImmGen.v
+├── instruction.txt
+├── Instruction_Memory.v
+├── PC.v
+├── Registers.v
+└── Testbench.v
+```
+
+Using command:
+```
+iverilog -o CPU.out *.v
+vvp CPU.out
+gtkwave CPU.vcd
+```
