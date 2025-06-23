@@ -21,7 +21,7 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
   </tr>
   <tr>
     <td>RISC-V assembly (RV64I)</td>
-    <td>Implement Quick Sort (Hoare partition)</td>
+    <td>實現簡單的Quick Sort (Hoare partition)，了解組合語言中的陣列與指標，以及遞迴呼叫時堆疊區應該保存的上下文資訊。</td>
     <td><img src="image/1.PNG" width="300"/></td>
     <td><img src="image/2.PNG" width="300"/></td>
   </tr>
@@ -44,10 +44,30 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
 
 ## 🚀 Homework 3 Getting Started
 
-| Homework 3 | Description | Input | Output |
-|-------------|-----------------|-----------------|-----------------|
-| Verilog |  |  |  |
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Homework 3</th>
+    <th>Description</th>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>Verilog</td>
+    <td>設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign。</td>
+    <td><img src="image/3.PNG" width="300"/></td>
+    <td><img src="image/4.png" width="300"/></td>
+  </tr>
+</table>
+
+Download prebuilt Icarus Verilog and GTKWave [here](https://bleyer.org/icarus/)
+
+Using command:
+```
+iverilog -o alu ALU.v ALU_tb.v
+vvp alu
+gtkwave ALU.vcd
+```
 
 | Homework 4 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-| Verilog |  |  |  |
+| Verilog | 設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign | ALU_tb.v |  |
