@@ -48,8 +48,8 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
   <tr>
     <th>Homework 3</th>
     <th>Description</th>
-    <th>Input</th>
-    <th>Output</th>
+    <th>Output 1 (ALU Wave)</th>
+    <th>Output 2 (Register Wave)</th>
   </tr>
   <tr>
     <td>Verilog</td>
@@ -66,6 +66,13 @@ Using command:
 iverilog -o alu ALU.v ALU_tb.v
 vvp alu
 gtkwave ALU.vcd
+```
+
+and
+```
+iverilog -o reg Registers.v Registers_tb.v
+vvp reg
+gtkwave Registers.vcd
 ```
 
 | Homework 4 | Description | Input | Output |
