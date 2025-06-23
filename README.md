@@ -53,7 +53,7 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
   </tr>
   <tr>
     <td>Verilog</td>
-    <td>設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign。</td>
+    <td>設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register File Design，並寫testbench測試邏輯是否正確。</td>
     <td><img src="image/3.PNG" width="300"/></td>
     <td><img src="image/4.png" width="300"/></td>
   </tr>
@@ -77,4 +77,4 @@ gtkwave Registers.vcd
 
 | Homework 4 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-| Verilog | 設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign | ALU_tb.v |  |
+| Verilog |  | |  |
