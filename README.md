@@ -53,13 +53,21 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
   </tr>
   <tr>
     <td>Verilog</td>
-    <td></td>
-    <td><img src="image/.PNG" width="300"/></td>
-    <td><img src="image/.PNG" width="300"/></td>
+    <td>設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign。</td>
+    <td><img src="image/3.PNG" width="300"/></td>
+    <td><img src="image/4.png" width="300"/></td>
   </tr>
 </table>
 
+Download prebuilt Icarus Verilog and GTKWave [here](https://bleyer.org/icarus/)
+
+Using command:
+```
+iverilog -o alu ALU.v ALU_tb.v
+vvp alu
+gtkwave ALU.vcd
+```
 
 | Homework 4 | Description | Input | Output |
 |-------------|-----------------|-----------------|-----------------|
-| Verilog |  |  |  |
+| Verilog | 設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register FileDesign | ALU_tb.v |  |
