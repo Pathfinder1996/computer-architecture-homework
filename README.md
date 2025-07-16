@@ -1,14 +1,16 @@
 ## 📝 Computer Organization and Design RISC-V
-Implement a simple quick sort (Hoare’s partition) in RISC-V assembly. 
+作業內容如下:
 
-Also, implement part of a single-cycle RISC-V CPU in Verilog.
+1. RISC-V assembly 實現簡單的 quick sort (Hoare’s partition)
+
+2. Verilog 實現部分指令的RV64I RISC-V single-cycle processor
 
 ### 🔗 1131 NTU CSIE Computer Architecture Programming Homework
-- Course code: CSIE3340 (三校聯盟課程代碼: 3T1684701)
+- Course code: CSIE3340(三校聯盟課程代碼: 3T1684701)
 - Instructor: Prof. Shih-Hao Hung(洪士灝 教授)
 - Textbook: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
 
-## 📁 Contents
+## 📁 內容
 
 ## 🚀 Homework 2 Getting Started
 
@@ -20,14 +22,14 @@ Also, implement part of a single-cycle RISC-V CPU in Verilog.
     <th>Output</th>
   </tr>
   <tr>
-    <td>RISC-V assembly (RV64I)</td>
+    <td>使用 RISC-V assembly (RV64I)</td>
     <td>實現簡單的Quick Sort (Hoare partition)，了解組合語言中的陣列與指標，以及遞迴呼叫時堆疊區應該保存的上下文資訊。</td>
     <td><img src="image/1.PNG" width="300"/></td>
     <td><img src="image/2.PNG" width="300"/></td>
   </tr>
 </table>
 
-Directory structure shown below:
+資料夾結構如下:
 ```
 homework_2
 ├── main.s
@@ -35,9 +37,9 @@ homework_2
 └── sort.s
 ```
 
-You can download RARS 1.7 from [this link](https://github.com/rarsm/rars/releases/download/v1.7/rars-1.7.jar)
+從右側連結 [點此下載](https://github.com/rarsm/rars/releases/download/v1.7/rars-1.7.jar) 下載 RARS 1.7
 
-Using this command:
+使用以下指令執行程式:
 ```
 java -jar rars-1.7.jar rv64 sm main.s sort.s
 ```
@@ -52,14 +54,14 @@ java -jar rars-1.7.jar rv64 sm main.s sort.s
     <th>Output 2 (Register Wave)</th>
   </tr>
   <tr>
-    <td>Verilog</td>
+    <td>使用 Verilog</td>
     <td>設置verilog開發環境，學習基礎verilog語法，按照作業規範實現ALU Design與RISC-V Register File Design，並寫testbench測試邏輯是否正確。</td>
     <td><img src="image/3.PNG" width="300"/></td>
     <td><img src="image/4.png" width="300"/></td>
   </tr>
 </table>
 
-Directory structure shown below:
+資料夾結構如下:
 ```
 homework_3
 ├── ALU.v
@@ -67,18 +69,18 @@ homework_3
 ├── Registers.v
 └── Registers_tb.v
 ```
-Setting up the verilog environment:
+設置 verilog environment:
 
-Download prebuilt Icarus Verilog and GTKWave [here](https://bleyer.org/icarus/)
+右側連結下載 Icarus Verilog 與 GTKWave [點此下載](https://bleyer.org/icarus/)
 
-Using command:
+使用以下指令執行:
 ```
 iverilog -o alu ALU.v ALU_tb.v
 vvp alu
 gtkwave ALU.vcd
 ```
 
-and
+以及:
 ```
 iverilog -o reg Registers.v Registers_tb.v
 vvp reg
@@ -91,12 +93,12 @@ gtkwave Registers.vcd
   <tr>
     <th>Homework 4</th>
     <th>Description</th>
-    <th>Data Path</th>
+    <th>CPU Data Path</th>
     <th>Input</th>
     <th>Output (CPU Wave)</th>
   </tr>
   <tr>
-    <td>Verilog</td>
+    <td>使用 Verilog</td>
     <td>實現部分指令的RV64I RISC-V single-cycle processor，參考The RISC-V Instruction Set Manual並設計出與作業規範相符的single-cycle processor，最後通過助教給的testbench。</td>
     <td><img src="image/6.png" width="300"/></td>
     <td>instruction.txt</td>
@@ -104,7 +106,7 @@ gtkwave Registers.vcd
   </tr>
 </table>
 
-Directory structure shown below:
+資料夾結構如下:
 ```
 homework_4
 ├── ALU.v
@@ -118,7 +120,7 @@ homework_4
 └── Testbench.v
 ```
 
-Using command:
+使用以下指令執行:
 ```
 iverilog -o CPU.out *.v
 vvp CPU.out
