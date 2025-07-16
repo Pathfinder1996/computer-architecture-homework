@@ -1,9 +1,9 @@
 ## 📝 Computer Organization and Design RISC-V
 作業內容如下:
 
-1. RISC-V assembly 實現簡單的 quick sort (Hoare’s partition)
+1. RISC-V assembly 實現簡單的 quick sort (Hoare’s partition)。
 
-2. Verilog 實現部分指令的RV64I RISC-V single-cycle processor
+2. Verilog 實現部分指令的RV64I RISC-V single-cycle processor。
 
 ### 🔗 1131 NTU CSIE Computer Architecture Programming Homework
 - Course code: CSIE3340(三校聯盟課程代碼: 3T1684701)
