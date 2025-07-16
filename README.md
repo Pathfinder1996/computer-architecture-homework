@@ -1,16 +1,18 @@
 ## 📝 Computer Organization and Design RISC-V
-作業內容如下:
+作業學習內容如下:
 
 1. RISC-V assembly 實現簡單的 quick sort (Hoare’s partition)。
 
 2. Verilog 實現部分指令的RV64I RISC-V single-cycle processor。
 
 ### 🔗 1131 NTU CSIE Computer Architecture Programming Homework
-- Course code: CSIE3340(三校聯盟課程代碼: 3T1684701)
-- Instructor: Prof. Shih-Hao Hung(洪士灝 教授)
-- Textbook: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
+- 課程代碼: CSIE3340(三校聯盟課程代碼: 3T1684701)
+  
+- 授課老師: Prof. Shih-Hao Hung(洪士灝 教授)
+  
+- 課程用書: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
 
-## 📁 內容
+## 📁 壓縮檔內容
 
 ## 🚀 Homework 2 Getting Started
 
