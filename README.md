@@ -14,7 +14,7 @@
 
 ## 📁 壓縮檔內容
 
-## 🚀 Homework 2 如何使用
+## 🚀 Homework 2 如何使用 (點擊縮圖可放大)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
@@ -46,7 +46,7 @@ homework_2
 java -jar rars-1.7.jar rv64 sm main.s sort.s
 ```
 
-## 🚀 Homework 3 如何使用
+## 🚀 Homework 3 如何使用 (點擊縮圖可放大)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
@@ -89,7 +89,7 @@ vvp reg
 gtkwave Registers.vcd
 ```
 
-## 🚀 Homework 4 如何使用
+## 🚀 Homework 4 如何使用 (點擊縮圖可放大)
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
