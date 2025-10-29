@@ -13,6 +13,8 @@
 - 課程用書: Computer Organization and Design Risc-V Edition: The Hardware Software Interface, by David A. Patterson and John L. Hennessy
 
 - 注意: 因助教未公布 Homework2 的所有測資，雖然 Github 上是我修改過的，但可能還是有錯，請自行設計更多測資測試，Verilog 作業部分都沒問題。
+  
+- 如果想要手寫/程式作業和期中期末考古題，歡迎來信: daiyan.6666@gmail.com
 
 ## 📁 壓縮檔內容
 
